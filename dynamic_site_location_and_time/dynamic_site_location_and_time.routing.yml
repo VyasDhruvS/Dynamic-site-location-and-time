@@ -1,0 +1,7 @@
+dynamic_site_location_and_time.settings_form:
+  path: '/admin/config/system/dynamic-site-location-and-time'
+  defaults:
+    _title: 'Dynamic Site location and time settings'
+    _form: 'Drupal\dynamic_site_location_and_time\Form\SettingsForm'
+  requirements:
+    _permission: 'administer dynamic_site_location_and_time configuration'

@@ -1,0 +1,4 @@
+services:
+  dynamic_site_location_and_time.service:
+    class: Drupal\dynamic_site_location_and_time\LocationTimeService
+    arguments: ['@config.factory', '@date.formatter']

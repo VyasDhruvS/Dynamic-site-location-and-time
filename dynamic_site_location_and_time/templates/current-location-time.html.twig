@@ -1,0 +1,7 @@
+{% if city and country %}
+<h2>{{ 'Location: @city, @country.' | trans({ '@city': city, '@country': country }) }}</h2>
+{% endif %}
+{% if time and timezone %}
+<h3>{{ 'Time: @time' | trans({ '@time': time }) }}</h3>
+<h3>{{ 'Current Timezone: @timezone' | trans({ '@timezone': timezone }) }} </h3>
+{% endif %}

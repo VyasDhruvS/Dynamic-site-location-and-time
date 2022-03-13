@@ -1,0 +1,6 @@
+name: Dynamic Site location and time
+type: module
+description: Allows user to see the site location and current time for the location.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
