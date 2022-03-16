@@ -24,4 +24,4 @@ function dynamic_site_location_and_time_theme() {
     ],
   ];
 }
- 
+
