@@ -13,15 +13,15 @@
  * Implements hook_theme().
  */
 function dynamic_site_location_and_time_theme() {
-    return [
-      'current_location_time' => [
-        'variables' => [
-          'country' => NULL,
-          'city' => NULL,
-          'time' => NULL,
-          'timezone' => NULL,
-        ],
+  return [
+    'current_location_time' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'time' => NULL,
+        'timezone' => NULL,
       ],
-    ];
-  }
-  
+    ],
+  ];
+}
+ 
